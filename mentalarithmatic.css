@@ -1,0 +1,47 @@
+.gameImg{
+    align-items: center;
+}
+
+#mainarea{
+    width: 60%;
+    height:95%;
+    min-width: 200x;
+    background-color: rgb(243, 249, 249);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#option{
+    height: 80%;
+    width: 5%;
+    background-color: antiquewhite;
+    border-top-right-radius:25px ;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#add, #sub, #multiply, #divide{
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+    margin: 3px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+}
+
+#add:hover, #sub:hover, #multiply:hover, #divide:hover{
+    background-color: rgb(227, 213, 195);
+}
+
+@media (max-width:500px){
+    #mainarea{
+        flex-direction: column;
+    }
+}
