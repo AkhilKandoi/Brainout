@@ -18,6 +18,7 @@ document.getElementById('restart').addEventListener('click', () => {
         btn.innerHTML = '';
         btn.disabled = false
     });
+    player1 = true
 })
 
 btn1.addEventListener('click', () => {
