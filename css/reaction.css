@@ -1,0 +1,39 @@
+.mainarea{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 25px;
+    gap: 30px;
+}
+
+#reactionarea{
+    width: 175px;
+    height: 175px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#reactionbtn{
+    padding: 10px;
+    height: 10%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(189, 185, 185);
+}
+
+#reactionbtn:hover{
+    background-color: gray;
+}
