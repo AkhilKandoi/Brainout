@@ -10,13 +10,10 @@ Brainout is a simple web-based game collection featuring classic brain teasers a
 
 ## Project Structure
 
-- `index.html` - Main page showcasing the available games.
-- `tictactoe.html` - TicTacToe game page.
-- `mentalarithmatic.html` - Mental Arithmetic game page.
-- `cardflip.html` - Card Match game page.
-- `style.css, mentalarithmatic.css, tictactoe.css, cardflip.css` - Stylesheets for the project.
-- `tictactoe.js, mentalarithmatic.js, cardflip.js` - Javascript for individual games. 
-- Image files. (e.g., `tictactoe.png`, `mathsymbol.png`, `flipcard.png`, `brainoutbig.png`)
+- `/html` - Contains all html files for individual games.
+- `/css` - Contains stylesheets for the individual games.
+- `/javascript` - Javascript files for individual games. 
+- `/images` - Encapsules all images related to project
 
 ## Technologies Used
 
