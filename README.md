@@ -2,6 +2,8 @@
 
 Brainout is a simple web-based game collection featuring classic brain teasers and memory games. It includes TicTacToe, Mental Arithmetic, and Card Match games.
 
+Link: https://brainout.netlify.app/
+
 ## Features
 
 - **TicTacToe:** Classic 3x3 grid game to test your strategic skills.
